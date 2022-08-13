@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web application</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+
+</head>
+<body style=" position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: sans-serif;">
+    
+<div class="container border rounded w-100">
+    <h1 class="bg-danger w-100 p-5 mt-3">adding product and search :</h1>
+    <br/>  <br/>  <br/>  <br/>
+  <div class="d-flex flex-wrap width-50">
+    <div>
+    <input type="text" id="search-product" placeholder="search..."/>
+    </div>
+
+    <form id="add-product-form">
+        <input type="text" name="productTitle" placeholder="Add product..."/>
+        <button>
+            add product
+        </button>
+    </form>
+  </div>
+
+  <div class="bg-primary mt-5 w-100 p-5" style="text-align: center; font-size: 25px;">
+    <div id="product" class="bg-warning">
+
+    </div>
+  </div>
+</div> 
+    <script src="./index.js"></script>
+</body>
+</html>
